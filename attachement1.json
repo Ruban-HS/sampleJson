@@ -1,85 +1,42 @@
 {
-        'id': '01K1VEJDNP4J1F85XTWEEYFQSK',
-        'data': {
-          actions: {
-            ['view-profile']: {
-              idField: 'ID',
-              nameField: 'Name',
-              type: 'open-new-tab-for-subject',
-              initialSystemMessage: 'Deep dive into [name]'
-            },
-          },
-          'title': '',
-          'headers': [
-            'ID',
-            'Name',
-            'Profile',
-            'Primary Affiliation',
-            'Location',
-            'Email',
-          ],
-          'rows': [
-            {
-              'ID': {
-                'value': '1',
-              },
-              'Name': {
-                'value': 'Tre Chan',
-              },
-              'Profile': {
-                'value': '::arrowButton{action="view-profile"}',
-              },
-              'Primary Affiliation': {
-                'value': 'Workshop',
-              },
-              'Location': {
-                'value': 'New York, NY',
-              },
-              'Email': {
-                'value': 'amelie.griffith@example.com',
-              },
-            },
-            {
-              'ID': {
-                'value': '2',
-              },
-              'Name': {
-                'value': 'Dr. Sarah Mitchell',
-              },
-              'Profile': {
-                'value': '::arrowButton{action="view-profile"}',
-              },
-              'Primary Affiliation': {
-                'value': 'Mayo Clinic',
-              },
-              'Location': {
-                'value': 'Rochester, MN',
-              },
-              'Email': {
-                'value': 'sarah.mitchell@mayo.edu',
-              },
-            },
-            {
-              'ID': {
-                'value': '3',
-              },
-              'Name': {
-                'value': 'Dr. Michael Rodriguez',
-              },
-              'Profile': {
-                'value': '::arrowButton{action="view-profile"}',
-              },
-              'Primary Affiliation': {
-                'value': 'Johns Hopkins',
-              },
-              'Location': {
-                'value': 'Baltimore, MD',
-              },
-              'Email': {
-                'value': 'michael.rodriguez@jhmi.edu',
-              },
-            },
-          ],
-        },
-        'type': 'table',
+  "id": "01K1VEJDNP4J1F85XTWEEYFQSK",
+  "type": "table",
+  "data": {
+    "actions": {
+      "view-profile": {
+        "idField": "ID",
+        "nameField": "Name",
+        "type": "open-new-tab-for-subject",
+        "initialSystemMessage": "Deep dive into [name]"
       }
+    },
+    "title": "",
+    "headers": ["ID", "Name", "Profile", "Primary Affiliation", "Location", "Email"],
+    "rows": [
+      {
+        "ID": { "value": "1" },
+        "Name": { "value": "Tre Chan" },
+        "Profile": { "value": "::arrowButton{action=\"view-profile\"}" },
+        "Primary Affiliation": { "value": "Workshop" },
+        "Location": { "value": "New York, NY" },
+        "Email": { "value": "amelie.griffith@example.com" }
+      },
+      {
+        "ID": { "value": "2" },
+        "Name": { "value": "Dr. Sarah Mitchell" },
+        "Profile": { "value": "::arrowButton{action=\"view-profile\"}" },
+        "Primary Affiliation": { "value": "Mayo Clinic" },
+        "Location": { "value": "Rochester, MN" },
+        "Email": { "value": "sarah.mitchell@mayo.edu" }
+      },
+      {
+        "ID": { "value": "3" },
+        "Name": { "value": "Dr. Michael Rodriguez" },
+        "Profile": { "value": "::arrowButton{action=\"view-profile\"}" },
+        "Primary Affiliation": { "value": "Johns Hopkins" },
+        "Location": { "value": "Baltimore, MD" },
+        "Email": { "value": "michael.rodriguez@jhmi.edu" }
+      }
+    ]
+  }
+}
