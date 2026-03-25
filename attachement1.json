@@ -1,10 +1,4 @@
-const markdown = `## Recent Conferences Attended by Dr. Amelie G. Griffith
-
-Dr. Amelie G. Griffith has attended the following conference recently:
-
-{{attachment\\:01K1VEJDNP4J1F85XTWEEYFQSK}}
-This information highlights Dr. Griffith's active participation in relevant workshops, showcasing her engagement in the field of surgical oncology.`;
-      const attachments = [{
+{
         'id': '01K1VEJDNP4J1F85XTWEEYFQSK',
         'data': {
           actions: {
@@ -88,4 +82,4 @@ This information highlights Dr. Griffith's active participation in relevant work
           ],
         },
         'type': 'table',
-      }];
+      }
